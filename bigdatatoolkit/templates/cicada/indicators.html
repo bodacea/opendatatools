@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+	<link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+	</head>
+<body>
+
+
+{% if countrydata %}
+	<h2>Indicators for country code: {{ countrydata.code }}</h2>
+	<table class="table table-striped table-condensed table-bordered">
+	<tr>
+	{% for h in countrydata.headers %}
+		<th>{{ h }}</th>
+	{% endfor %}
+	</tr>
+	{% for row in countrydata.indicators %}
+		<tr>
+		{% for col in row %}
+			<td>{{ col }}</td>
+		{% endfor %}
+		</tr>
+	{% endfor %}
+	</table>
+{% else %}
+	<p>No data is available.</p>
+{% endif %}
+
+
+<script src="{{ STATIC_URL }}js/jquery.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-transition.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-alert.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-modal.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-dropdown.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-scrollspy.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-tab.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-tooltip.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-popover.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-button.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-collapse.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-typeahead.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap-affix.js"></script>
+</body>
+</html>

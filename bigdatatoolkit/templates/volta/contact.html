@@ -1,0 +1,7 @@
+<form action="/volta/contact/" method="post">{% csrf_token %}
+Subject: {{ form.subject }}
+Sender: {{ form.sender }}
+Message: {{ form.message }}
+CC myself: {{ form.cc_myself }}
+<input type="submit" value="Submit" />
+</form>    

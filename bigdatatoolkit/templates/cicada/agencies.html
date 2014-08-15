@@ -1,0 +1,10 @@
+    {% if agency_list %}
+		We have data scraped from the agencies below.
+        <ul>
+        {% for agency in agency_list %}
+            <li>{{ agency.shortname }} : {{ agency.name }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No agencies are available.</p>
+    {% endif %}
