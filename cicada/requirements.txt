@@ -1,0 +1,7 @@
+Django==1.4.3
+distribute==0.6.31
+dj-database-url==0.2.1
+psycopg2==2.4.6
+pycountry==0.14.7
+xlrd==0.8.0
+xlwt==0.7.4

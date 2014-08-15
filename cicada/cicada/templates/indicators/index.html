@@ -1,0 +1,19 @@
+	{% load url from future %}
+	<link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+
+	{% if country_list %}
+		Data is available for the countries below. The list of countries and their codes is also available as an <a href="{% url 'countries_excel' %}">excel file</a>.
+		<ul>
+		{% for country in country_list %}
+			<li>{{ country.ISOname }} (<a href="{% url 'country' country.ISOalpha3 %}">html</a>, <a href="{% url 'country_excel' country.ISOalpha3 %}">excel</a>)</li>
+		{% endfor %}
+		</ul>
+	{% else %}
+		<p>No countries are available.</p>
+	{% endif %}
+
+	Sources for these indicators: 
+	<ul>
+	<li><a href="{% url 'agencies' %}">Agencies and Organisations</a></li>
+	</ul>
+	
