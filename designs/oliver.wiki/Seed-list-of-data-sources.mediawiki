@@ -1,0 +1,175 @@
+Crisis kit:
+* 
+
+Vulnerability kit: 
+
+{|
+!Name
+!Generating agency
+!Data format
+!Acquisition date
+!Contributor uid
+!Data quality
+!Standards used
+!Datasite link
+!Metadata link
+!API address
+|-
+|Global Population
+|United Nations Statistics Division
+|html
+|0
+|0
+|clean
+|
+|http://data.un.org/Data.aspx?d=PopDiv&f=variableID%3a12
+|
+|-
+|UN Data
+|United Nations Statistical Division
+|html
+|0
+|0
+|clean
+|
+|http://data.un.org/
+|
+|
+|-
+|World Bank Open Data
+|Various
+|
+|0
+|0
+|clean
+|
+|http://data.worldbank.org/data-catalog/
+|
+|
+|-
+|ReliefWeb
+|UNOCHA
+|
+|0
+|0
+|
+|
+|http://www.reliefweb.int/
+|
+|
+|-
+|UNOSAT
+|UNITAR
+|
+|0
+|0
+|
+|
+|http://www.unitar.org/unosat/
+|
+|
+|-
+|Open Data Directory
+|
+|
+|0
+|0
+|
+|
+|http://open.mflask.com/
+|
+|
+|-
+|Open Data Search
+|
+|
+|0
+|0
+|
+|
+|http://opendatasearch.org/
+|
+|
+|-
+|FAO Geopolitical Ontology
+|UN FAO
+|Owl
+|0
+|0
+|
+|
+|http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/
+|
+|
+|-
+|CKAN
+|Open Knowledge Foundation
+|various
+|0
+|0
+|
+|
+|http://ckan.org/
+|
+|
+|-
+|Asian Development Bank Statistical Database System
+|Asian Development Bank
+|
+|0
+|0
+|
+|
+|https://sdbs.adb.org/sdbs/index.jsp
+|
+|
+|-
+|EM-DAT International Disaster Database
+|Centre for Research on the Epidemiology of Disasters
+|
+|0
+|0
+|
+|
+|http://www.emdat.be/database
+|
+|
+|-
+|UNData API
+|
+|
+|0
+|0
+|
+|
+|http://www.undata-api.org/wiki/datasets
+|
+|
+|-
+|Twitter API
+|Twitter
+|
+|0
+|0
+|
+|
+|http://dev.twitter.com/start
+|
+|
+|-
+|Guardian datastore
+|The Guardian
+|
+|0
+|0
+|
+|
+|http://www.guardian.co.uk/data
+|
+|-
+|}
+
+
+
+
+UNGIWG also maintains a list of UN datasources [[here|https://sites.google.com/a/ungiwgsec.org/working/data-sharing-task-group/un-data]].

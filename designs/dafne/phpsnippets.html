@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// Set arrays
+$severity = array
+   (
+   array(0,"Response","","", "grey"),
+   array(1,"No", "No", "", "green"),
+   array(2,"Problem","No","", "lightgreen"),
+   array(3,"Problem","Monitoring","ASAP", "yellow"),
+   array(4,"Problem","Intervention","Medium-term", "orange"),
+   array(5,"Problem","Intervention","Immediately", "red"),
+  );
+
+for ($i=1; $i<7; $i++)
+{  
+  echo $severity[$i][0].": Problem: ".$severity[$i][1].". Action: ".$severity[$i][2]."<br>";
+}
+?>
+
+</body>
+</html>

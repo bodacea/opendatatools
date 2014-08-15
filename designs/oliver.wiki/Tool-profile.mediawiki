@@ -1,0 +1,11 @@
+[[/img/Oliver_gui_tool.png]]
+
+This user interface displays data for one entry of the [[Tools table]].  Entities in it are: 
+
+* Name: the name given to this tool
+* Description: free-text description of the tool
+* Tags: user-given tags for this tool
+* Languages: free-text list of coding languages used in this tool
+* Comments: a set of user comments about this tool
+
+The tool gui design and table design have been reconciled with each other. 
